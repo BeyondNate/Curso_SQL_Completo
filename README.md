@@ -27,7 +27,9 @@
 - Seguir en mis redes sociales donde doy avances también puede ser de mucha ayuda.
 - Una estrellita también sería de mucho apoyo
 
-#Exitos en tu aprendizaje!!!
+---
+
+# Exitos en tu aprendizaje!!!
 
 
 
