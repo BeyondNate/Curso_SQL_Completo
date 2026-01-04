@@ -5,7 +5,7 @@ Recomiendo usar SQL Server ya que es ahi donde hago la mayor parte de mis consul
 
 ---
 
-##¿Qué encontrarás aquí?
+## ¿Qué encontrarás aquí?
 - Explicaciones de Conceptos Clave
 - Consultas (Query) SQL comentadas paso a paso
 - Ejercicios Resueltos con enfoque a las buenas prácticas
@@ -13,7 +13,7 @@ Recomiendo usar SQL Server ya que es ahi donde hago la mayor parte de mis consul
 
 ---
 
-##Estructura de los apuntes
+## Estructura de los apuntes
 Mis apuntes se dividen en 11 Modulos y cada carpeta hace referencia a un modulo.
 Iremos de lo más básico a cosas más avanzadas.
 En cada carpeta encontrarás la teoría resumida y los ejercicios comentados.
