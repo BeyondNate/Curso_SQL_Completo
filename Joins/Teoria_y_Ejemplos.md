@@ -281,12 +281,4 @@ Los valores NULL en los resultados son indicadores importantes:
 - **NULL en cantidad**: Cliente sin pedidos o producto sin ventas
 
 Estos NULLs proporcionan información valiosa sobre la integridad y completitud de los datos.
-```
 
-Este formato MD es perfecto para GitHub, con:
-- Encabezados jerárquicos (`#`, `##`, `###`)
-- Bloques de código con especificación del lenguaje (```sql)
-- Tablas formateadas correctamente
-- Separadores visuales (`---`)
-- Listas con viñetas
-- Estructura clara y navegable con índice
