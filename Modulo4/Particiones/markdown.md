@@ -200,29 +200,6 @@ WHERE FechaObservacion >= '2021-01-01'
   AND FechaObservacion < '2022-01-01';
 ```
 
-## Monitoreo y Mantenimiento
-
-### Scripts Útiles para Monitoreo
-
-```sql
--- Ver todos los índices de una tabla
-SELECT 
-    i.name AS IndexName,
-    i.type_desc,
-    STATS_DATE(i.object_id, i.index_id) AS LastStatsUpdate
-FROM sys.indexes i
-WHERE i.object_id = OBJECT_ID('Plantas');
-
--- Ver tamaño de las particiones
-SELECT 
-    p.partition_number,
-    p.rows,
-    au.total_pages * 8 / 1024 AS SizeMB
-FROM sys.partitions p
-INNER JOIN sys.allocation_units au
-    ON p.partition_id = au.container_id
-WHERE p.object_id = OBJECT_ID('ObservacionesPart');
-```
 
 ### Buenas Prácticas
 
