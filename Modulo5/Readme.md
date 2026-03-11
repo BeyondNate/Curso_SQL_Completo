@@ -1,4 +1,4 @@
-Aquí tienes un resumen estructurado del módulo en formato Markdown para GitHub:
+
 
 # TRANSACCIONES Y CONTROL DE CONCURRENCIA EN SQL
 
